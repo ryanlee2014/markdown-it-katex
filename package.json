@@ -1,0 +1,28 @@
+{
+  "name": "@ryanlee2014/markdown-it-katex",
+  "version": "1.0.4",
+  "description": "Fast math support for markdown-it with KaTeX",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify browser.js -o bundle.js -v",
+    "test": "node test/all.js"
+  },
+  "keywords": [
+    "markdown",
+    "KaTeX",
+    "math",
+    "LaTeX",
+    "markdown-it-plugin",
+    "markdown-it"
+  ],
+  "author": "ryanlee2014",
+  "license": "MIT",
+  "dependencies": {
+    "katex": "^0.10.1"
+  },
+  "devDependencies": {
+    "markdown-it": "^8.4.2",
+    "markdown-it-testgen": "^0.1.5",
+    "tape": "^4.10.1"
+  }
+}
